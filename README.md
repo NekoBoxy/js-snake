@@ -1,2 +1,2 @@
-# js-snake
-Snake game use simple html &amp; js
+# ts-snake
+use typescript, scss and vite.
