@@ -1,3 +1,19 @@
-.otter {
-  color: red;
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+#app {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.canvas {
+  background-color: black;
+  width: 320px;
+  height: 320px;
+  margin: 0 auto;
 }
