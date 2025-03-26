@@ -10,9 +10,11 @@
 <body>
   <div id="app">
     <canvas id="canvas" class="canvas"></canvas>
-    <p id="score01"></p>
-    <p id="score02"></p>
-    <button id="start" type="button" onclick="location.reload()">開始新遊戲</button>
+    <div class="record-area">
+      <p id="score01" class="score01">分數：</p>
+      <p id="score02" class="score02">歷史最高分：</p>
+      <button id="start" type="button" onclick="location.reload()" class="btn-start">開始新遊戲</button>
+    </div>
   </div>
   <script type="module" src="/src/main.ts"></script>
 </body>

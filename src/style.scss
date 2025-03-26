@@ -9,11 +9,40 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-top: 3rem;
 }
 
 .canvas {
+  border: 5px solid lightblue;
   background-color: black;
   width: 320px;
   height: 320px;
   margin: 0 auto;
+}
+
+.record-area {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.score01,
+.score02 {
+  color: #ffffff;
+  font-size: 1rem;
+  line-height: 1.6;
+  padding: 1rem;
+}
+
+.btn-start {
+  font-size: 1rem;
+  line-height: 1.6;
+  padding: 1rem;
+  background-color: burlywood;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  width: 200px;
+  height: 40px;
+  text-align: center;
 }
